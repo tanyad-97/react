@@ -21,17 +21,17 @@ console.log(classesNew2);*/
 const Navbar=()=> {
     return (
         <nav className={s.nav}>
-            <div className={s.item}>
-                <a>profile</a>
-            </div>
             <div className={`${s.item} ${s.active}`}>
-                <a>message</a>
+                <a>Profile</a>
             </div>
             <div className={s.item}>
-                <a>music</a>
+                <a>Message</a>
             </div>
-            <div>news</div>
-            <div>settings</div>
+            <div className={s.item}>
+                <a>Music</a>
+            </div>
+            <div className={s.item}>news</div>
+            <div className={s.item}>Settings</div>
         </nav>
     );
 }

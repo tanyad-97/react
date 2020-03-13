@@ -1,11 +1,12 @@
 .main {
     grid-area: m;
-    background-color: #4043e2;
+    background-color: #ededed;
 }
 
 .main img{
+    object-fit: cover;
     width: 100%;
-    height: 200px;
+    height: 400px;
 }
 
 .item{

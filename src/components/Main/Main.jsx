@@ -1,5 +1,6 @@
 import React from "react";
 import s from './Main.module.css';
+import MyPosts from "./MyPOsts/MyPosts";
 
 const Main=()=> {
     return (
@@ -7,15 +8,7 @@ const Main=()=> {
             <div>
                 <img src="https://wallbox.ru/wallpapers/main/201138/liguriyskoe-more-bereg-volny-e7698f3.jpg" alt=""/>
             </div>
-            <div>
-                <div className={s.item}>
-                    <a>ava</a>
-                </div>
-                <p>my post</p>
-                <p>new pot</p>
-                <p>post 1</p>
-                <p>post 2</p>
-            </div>
+            <MyPosts/>
         </div>
     );
 }
